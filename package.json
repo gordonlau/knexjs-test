@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/gordonlau/knexjs-test/issues"
   },
-  "homepage": "https://github.com/gordonlau/knexjs-test#readme"
+  "homepage": "https://github.com/gordonlau/knexjs-test#readme",
+  "dependencies": {
+    "knex": "^0.14.2",
+    "pg": "^7.4.0"
+  }
 }
