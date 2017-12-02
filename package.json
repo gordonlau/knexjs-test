@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gordonlau/knexjs-test#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "knex": "^0.14.2",
     "pg": "^7.4.0"
   }
