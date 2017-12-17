@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
   return knex.schema.createTableIfNotExists("groups",(table)=>{
         table.increments();
         table.string('name');
-        table.timestamps();
+        table.timestamps(false,true);
   });
 };
 
